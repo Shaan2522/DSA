@@ -4,7 +4,7 @@
  * imagine this array -> [2, 2, 2, 0, 1, 2]
  * the usual code wont work here */
 
-class Main {
+class find_minimum_in_rotated_sorted_array_ii {
     public int findMin(int[] nums) {
         int n = nums.length;
         int left = 0;
